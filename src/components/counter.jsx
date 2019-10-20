@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Counter extends Component {
   state = {
     value: this.props.value,
-    tags: []
+    tags: ['tag1','tag2','tag3']
   };
 
   renderTags() {
